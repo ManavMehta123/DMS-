@@ -127,8 +127,10 @@ MongoDB connected successfully
 ```
 
 ### Step 6: Open the Frontend
-After the backend is running, the user goes back to the root project folder in another terminal , create another terminal using '+' in corner and create another terminal , in another terminal go back to the root directory and run the following command.
+After the backend is running, the user goes back to the root project folder in another terminal , create another terminal using '+' in corner and create another terminal , in another terminal go back to the root directory using the command :
+cd ..
 
+and then run the following command.
 
 npm run frontend
 
