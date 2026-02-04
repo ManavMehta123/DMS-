@@ -1,0 +1,14 @@
+{
+  "name": "dms-full-stack",
+  "version": "1.0.0",
+  "description": "Document Management System - Full Stack Application",
+  "scripts": {
+    "install-all": "cd backend && npm install",
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "frontend": "cd frontend && npx http-server -p 8080"
+  },
+  "keywords": ["dms", "document-management", "mean-stack"],
+  "author": "",
+  "license": "MIT"
+}
