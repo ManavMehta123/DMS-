@@ -175,10 +175,8 @@ Then open `http://localhost:8080` in your browser.
 - Update title, description, or tags
 - Click "Update"
 
-
 ### 8. Delete a Document
 - Click "Delete" on a document you own
-- Confirm the deletion
 
 
 ## Troubleshooting
