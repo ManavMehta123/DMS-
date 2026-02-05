@@ -180,21 +180,6 @@ Then open `http://localhost:8080` in your browser.
 - Click "Delete" on a document you own
 - Confirm the deletion
 
-### Technology Usage Clarification
-Initially, the project was planned to be developed using the MEAN stack, including
-Angular for the frontend. However, during implementation, Angular was not used
-extensively. Instead, most of the frontend functionality was developed using HTML,
-CSS, and JavaScript.
-This approach was chosen to keep the project simple and to focus more on
-understanding core web development concepts. HTML was used to structure the pages,
-CSS was used for styling and responsiveness, and JavaScript was used to handle user
-interactions.
-Angular configuration files are present in the project structure, but the main user
-interface and logic were implemented using plain frontend technologies rather than
-Angular components. This allowed faster development and easier debugging.
-The backend was fully implemented using Node.js and Express.js, and MongoDB was
-used as the database for storing users and document information.
-
 
 ## Troubleshooting
 
@@ -251,12 +236,19 @@ If you encounter any issues:
 3. Verify MongoDB is running
 4. Make sure all dependencies are installed
 
-## Technology Usage Clarification
-
-The project was initially planned to be developed using the **MEAN stack**, with **Angular** intended for the frontend. However, during implementation, Angular was not used extensively.
+### Technical usage Clarification
+The project was initially planned to be developed using the MEAN stack, with Angular intended for the frontend. However, during implementation, Angular was not used extensively.
 Instead, most of the frontend functionality was developed using **HTML, CSS, and JavaScript**. This decision was made to keep the project simple and to focus on understanding core web development concepts.
-- **HTML** was used for structuring the web pages  
-- **CSS** was used for styling and responsiveness  
-- **JavaScript** was used to handle user interactions and client-side logic  
+- HTML was used for structuring the web pages  
+- CSS was used for styling and responsiveness  
+- JavaScript was used to handle user interactions and client-side logic  
 Although Angular configuration files exist in the project structure, the main user interface and application logic were implemented using plain frontend technologies rather than Angular components. This allowed faster development and easier debugging.
-The backend of the project was fully implemented using **Node.js** and **Express.js**, while **MongoDB** was used as the database for storing user and document information.
+The backend of the project was fully implemented using Node.js and Express.js, while MongoDB was used as the database for storing user and document information.
+
+The project was initially planned to be developed using the MEAN stack, with Angular intended for the frontend. However, during implementation, Angular was not used extensively.
+Instead, most of the frontend functionality was developed using HTML, CSS, and JavaScript. This decision was made to keep the project simple and to focus on understanding core web development concepts.
+- HTML was used for structuring the web pages  
+- CSS was used for styling and responsiveness  
+- JavaScript was used to handle user interactions and client-side logic  
+Although Angular configuration files exist in the project structure, the main user interface and application logic were implemented using plain frontend technologies rather than Angular components. This allowed faster development and easier debugging.
+The backend of the project was fully implemented using Node.js and Express.js, while MongoDB was used as the database for storing user and document information.
