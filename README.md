@@ -1,4 +1,4 @@
-# Document Management System (DMS)
+<img width="1905" height="963" alt="Screenshot 2026-02-04 133619" src="https://github.com/user-attachments/assets/5cabb7e8-1a9d-4ccf-a657-abb0f7accc1d" /># Document Management System (DMS)
 
 A simple and fully functional Document Management System built with the MongoDB, Express.js, Vanilla JavaScript frontend, Node.js.
 
@@ -20,11 +20,6 @@ A simple and fully functional Document Management System built with the MongoDB,
 - Filter by tags
 - View all documents or search results
 
-✅ **Version Control**
-- Track document versions
-- Upload new versions with comments
-- View version history
-
 ✅ **Permissions**
 - Owner-based permissions
 - View and edit access control
@@ -39,9 +34,8 @@ A simple and fully functional Document Management System built with the MongoDB,
 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript,Angular
 - **Authentication**: JWT (JSON Web Tokens)
-- **File Upload**: Multer
 
 ## Prerequisites
 
@@ -181,61 +175,36 @@ Then open `http://localhost:8080` in your browser.
 - Update title, description, or tags
 - Click "Update"
 
-### 7. Upload a New Version
-- Click "View" on a document
-- In the modal, use the "Upload New Version" form
-- Select a new file and add a comment
-- Click "Upload Version"
 
 ### 8. Delete a Document
 - Click "Delete" on a document you own
 - Confirm the deletion
 
-## File Structure
+### Step 6: Ouputs
+Main Page
+<img width="1905" height="963" alt="Screenshot 2026-02-04 133619" src="https://github.com/user-attachments/assets/b252899b-64d6-404e-aece-1bed40f315af" />
 
-```
-dms-project/
-├── backend/
-│   ├── models/
-│   │   ├── User.js          # User schema
-│   │   └── Document.js      # Document schema
-│   ├── routes/
-│   │   ├── auth.js          # Authentication routes
-│   │   └── documents.js     # Document CRUD routes
-│   ├── middleware/
-│   │   └── auth.js          # JWT authentication middleware
-│   ├── uploads/             # Uploaded files storage
-│   ├── .env                 # Environment variables
-│   ├── server.js            # Main server file
-│   └── package.json         # Dependencies
-│
-└── frontend/
-    ├── css/
-    │   └── style.css        # All styles
-    ├── js/
-    │   ├── config.js        # API configuration
-    │   ├── auth.js          # Authentication logic
-    │   ├── documents.js     # Document management
-    │   └── app.js           # Main app initialization
-    └── index.html           # Main HTML file
-```
+Register Page
+<img width="1612" height="935" alt="Screenshot 2026-02-04 133646" src="https://github.com/user-attachments/assets/1ef237b0-280e-4810-b9a8-34e0b932b2a0" />
 
-## API Endpoints
+Login Page
+<img width="1002" height="764" alt="Screenshot 2026-02-04 133731" src="https://github.com/user-attachments/assets/438d9ac2-eaf5-41ad-9acf-ac4960810894" />
 
-### Authentication
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login user
-- `GET /api/auth/me` - Get current user info
+### Technology Usage Clarification
+Initially, the project was planned to be developed using the MEAN stack, including
+Angular for the frontend. However, during implementation, Angular was not used
+extensively. Instead, most of the frontend functionality was developed using HTML,
+CSS, and JavaScript.
+This approach was chosen to keep the project simple and to focus more on
+understanding core web development concepts. HTML was used to structure the pages,
+CSS was used for styling and responsiveness, and JavaScript was used to handle user
+interactions.
+Angular configuration files are present in the project structure, but the main user
+interface and logic were implemented using plain frontend technologies rather than
+Angular components. This allowed faster development and easier debugging.
+The backend was fully implemented using Node.js and Express.js, and MongoDB was
+used as the database for storing users and document information.
 
-### Documents
-- `POST /api/documents/upload` - Upload a document
-- `GET /api/documents` - Get all accessible documents
-- `GET /api/documents/search` - Search documents
-- `GET /api/documents/:id` - Get document by ID
-- `PUT /api/documents/:id` - Update document details
-- `POST /api/documents/:id/version` - Upload new version
-- `PUT /api/documents/:id/permissions` - Update permissions
-- `DELETE /api/documents/:id` - Delete document
 
 ## Troubleshooting
 
@@ -266,12 +235,6 @@ dms-project/
 - Change the PORT in `.env` file to another number (e.g., 3001)
 - Or kill the process using port 3000
 
-## Default Test Account
-
-You can create a test account with these credentials:
-- Email: test@example.com
-- Password: test123
-- Username: testuser
 
 ## Security Notes
 
@@ -298,19 +261,3 @@ If you encounter any issues:
 3. Verify MongoDB is running
 4. Make sure all dependencies are installed
 
-## License
-
-MIT License - feel free to use this project for learning or personal use.
-
-## Future Enhancements
-
-Potential features to add:
-- Email notifications
-- Shared folders
-- Advanced permissions (view-only, comment, etc.)
-- Document preview
-- Collaborative editing
-- Activity logs
-- File organization with folders
-- Bulk operations
-- Document templates
