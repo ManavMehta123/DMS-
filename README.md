@@ -136,9 +136,6 @@ The frontend runs on port 8080 and loads the HTML interface in the browser.
 
 Then open `http://localhost:8080` in your browser.
 
-**Option 3: Use VS Code Live Server**
-- Install the Live Server extension in VS Code
-- Right-click `index.html` and select "Open with Live Server"
 
 ## Usage Guide
 
@@ -236,7 +233,7 @@ If you encounter any issues:
 
 ### Technical usage Clarification
 The project was initially planned to be developed using the MEAN stack, with Angular intended for the frontend. However, during implementation, Angular was not used extensively.
-Instead, most of the frontend functionality was developed using **HTML, CSS, and JavaScript**. This decision was made to keep the project simple and to focus on understanding core web development concepts.
+Instead, most of the frontend functionality was developed using HTML, CSS, and JavaScript. This decision was made to keep the project simple and to focus on understanding core web development concepts.
 - HTML was used for structuring the web pages  
 - CSS was used for styling and responsiveness  
 - JavaScript was used to handle user interactions and client-side logic  
@@ -250,3 +247,5 @@ Instead, most of the frontend functionality was developed using HTML, CSS, and J
 - JavaScript was used to handle user interactions and client-side logic  
 Although Angular configuration files exist in the project structure, the main user interface and application logic were implemented using plain frontend technologies rather than Angular components. This allowed faster development and easier debugging.
 The backend of the project was fully implemented using Node.js and Express.js, while MongoDB was used as the database for storing user and document information.
+
+
