@@ -180,16 +180,6 @@ Then open `http://localhost:8080` in your browser.
 - Click "Delete" on a document you own
 - Confirm the deletion
 
-### Step 6: Ouputs
-Main Page
-<img width="1905" height="963" alt="Screenshot 2026-02-04 133619" src="https://github.com/user-attachments/assets/b252899b-64d6-404e-aece-1bed40f315af" />
-
-Register Page
-<img width="1612" height="935" alt="Screenshot 2026-02-04 133646" src="https://github.com/user-attachments/assets/1ef237b0-280e-4810-b9a8-34e0b932b2a0" />
-
-Login Page
-<img width="1002" height="764" alt="Screenshot 2026-02-04 133731" src="https://github.com/user-attachments/assets/438d9ac2-eaf5-41ad-9acf-ac4960810894" />
-
 ### Technology Usage Clarification
 Initially, the project was planned to be developed using the MEAN stack, including
 Angular for the frontend. However, during implementation, Angular was not used
@@ -261,3 +251,17 @@ If you encounter any issues:
 3. Verify MongoDB is running
 4. Make sure all dependencies are installed
 
+### Technology Usage Clarification
+Initially, the project was planned to be developed using the MEAN stack, including
+Angular for the frontend. However, during implementation, Angular was not used
+extensively. Instead, most of the frontend functionality was developed using HTML,
+CSS, and JavaScript.
+This approach was chosen to keep the project simple and to focus more on
+understanding core web development concepts. HTML was used to structure the pages,
+CSS was used for styling and responsiveness, and JavaScript was used to handle user
+interactions.
+Angular configuration files are present in the project structure, but the main user
+interface and logic were implemented using plain frontend technologies rather than
+Angular components. This allowed faster development and easier debugging.
+The backend was fully implemented using Node.js and Express.js, and MongoDB was
+used as the database for storing users and document information.
